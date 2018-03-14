@@ -1,0 +1,209 @@
+#container{
+	width: 100%;
+	margin: 0px auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+h1 a{
+	font-size: 50px;
+	font-weight: 100px;
+	color: #861BBF;
+	text-decoration: none;
+
+}
+*{
+	box-sizing: border-box;
+}
+
+#brand{
+	max-width: 49%;
+	float: left;
+	margin-left: 10px;
+
+}
+#searchbox{
+	max-width: 49%;
+	float: right;
+	background: linear-gradient(#E4F289, #B7E953);
+	width: 400px;
+	height: 80px;
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+
+/*As the div element collapses because there are only floating elements present in the div so we have to add height , it behaves as if no element is present*/
+#header{
+	height: 100px;
+}
+
+.text{
+	float: left;
+	width: 200px;
+	padding: 5px;
+	color: #E36A0C;
+	font-size: 15px;
+	margin-top: 25px;
+	margin-left: 15px;
+	height: 30px;
+	border-radius: 12px;
+	border: 2px solid purple;
+	background-image:  url("/images/search.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 20px;
+
+}
+
+.Submit{
+	float: right;
+	padding: 5px;
+	color: white;
+	font-size: 15px;
+	margin-top: 25px;
+	height: 30px;
+	margin-right: 10px;
+	font-weight: bold;
+	background: #A751D6;
+}
+
+.clear{
+	clear: both;
+}
+#menu ul{
+	list-style: none;
+}
+
+#menu{
+	height: 70px;
+	background: linear-gradient(#F8F594, #D5D533);
+	padding-left: 15%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#menu ul li:last-child{
+	border-right: none;
+}
+#menu ul li a:hover, #menu ul li a.active{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #B314DB;
+}
+
+
+#menu ul li{
+	display: inline-block;
+	padding: 0px 30px;
+	height: 30px;
+	border-right: 1px solid #5D12E7;
+
+}
+
+#menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #5D12E7;
+	line-height: 30px;
+
+	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	-o-transition: font-size 0.3s ease;
+	-ms-transition: font-size 0.3s ease;
+	transition: font-size 0.3s ease;
+
+ }
+
+ #intro{
+ 	background: linear-gradient(#E5F2BB, #B7E952);
+ 	padding: 30px;
+ 	margin: 10px;
+ }
+
+ #intro h3{
+ 	font-size: 3em;
+ 	color: #316901;
+ 	font-weight: normal;
+ }
+
+ #intro p{
+ 	font-size: 2em;
+ 	color: #628F19;
+ 	text-align: justify;
+ }
+
+ .sidebar{
+ 	height: 600px;
+ 	width: 49%;
+ 	border: 1px solid #BAF46F;
+ 	border-radius: 20px;
+ 	padding: 10px 30px;
+ }
+
+.sidebar h3{
+	color: #B314DB;
+	font-size: 1.8em;
+}
+
+
+ #leftside{
+ 	float: left;
+ 	margin-left: 10px;
+
+ }
+
+ #rightside{
+ 	float: right;
+ 	margin-right: 10px;
+ }
+
+ .sidebar ul li a{
+ 	font-size: 1.2em;
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	color: #5D12E7;
+ 	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	-o-transition: font-size 0.3s ease;
+	-ms-transition: font-size 0.3s ease;
+	transition: font-size 0.3s ease;
+ }
+
+ .sidebar ul li a:hover, .sidebar ul li a.active{
+ 	text-decoration: none;
+ 	color: #B314DB;
+ 	font-size: 1.4em;
+ }
+
+ .sidebar ul li{
+ 	padding-bottom: 20px;
+
+ }
+
+ #leftside ul li {
+ 	list-style-image: url('/images/logo.gif');
+
+ 	}
+
+ #rightside ul li{
+ 	 list-style-image: url('/images/logo2.PNG');
+ }
+
+#footer{
+	margin: 10px;
+	border: 1px solid #BAF46F;
+	border-radius: 5px;
+	background: linear-gradient(#E5F2BB, #B7E952);
+	height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.Submit:hover{
+	cursor: pointer;
+
+	}
