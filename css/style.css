@@ -50,7 +50,7 @@ h1 a{
 	height: 30px;
 	border-radius: 12px;
 	border: 2px solid purple;
-	background-image:  url("/images/search.png");
+	background-image:  url("https://github.com/RohitGoyal08071996/MathsWebsite/blob/gh-pages/images/search.png");
 	background-repeat: no-repeat;
 	background-position: right center;
 	padding-right: 20px;
@@ -185,12 +185,12 @@ h1 a{
  }
 
  #leftside ul li {
- 	list-style-image: url('/images/logo.gif');
+ 	list-style-image: url('https://github.com/RohitGoyal08071996/MathsWebsite/blob/gh-pages/images/logo.gif');
 
  	}
 
  #rightside ul li{
- 	 list-style-image: url('/images/logo2.PNG');
+ 	 list-style-image: url('https://github.com/RohitGoyal08071996/MathsWebsite/blob/gh-pages/images/logo2.png');
  }
 
 #footer{
