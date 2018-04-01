@@ -1,0 +1,24 @@
+.tutor {
+	height: 600px;
+ 	border: 1px solid #BAF46F;
+ 	border-radius: 20px;
+ 	padding: 10px 30px;
+}
+
+.tutor h3{
+	color: #B314DB;
+	font-size: 1.8em;
+}
+
+.tutor ul li a{
+	font-size: 1.2em;
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	color: #5D12E7;
+ 	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	-o-transition: font-size 0.3s ease;
+	-ms-transition: font-size 0.3s ease;
+	transition: font-size 0.3s ease;
+ }
+

@@ -1,0 +1,306 @@
+
+html{
+	height: 100%;
+	background: radial-gradient(circle, #fff, #ccc);
+	background: -webkit-radial-gradient(circle, #fff, #ccc);
+	background: -o-radial-gradient(circle, #fff, #ccc);
+	background: -moz-radial-gradient(circle, #fff, #ccc);
+}
+
+#container{
+	width: 100%;
+	margin: 0px auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h1 a{
+	font-size: 50px;
+	font-weight: 100px;
+	color: #861BBF;
+	text-decoration: none;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#brand{
+	width: 49%;
+	float: left;
+	margin-left: 10px; 
+	font-size: 0.8em;
+}
+
+#searchbox{
+	max-width: 49%;
+	float: right;
+	background: linear-gradient(#D4E9F3, #9dd2ea);
+	width: 400px;
+	height: 80px;
+	margin-top: 10px;
+	margin-right: 10px;
+ 	border-radius: 10px;
+
+
+}
+
+/*As the div element collapses because there are only floating elements present in the div so we have to add height , it behaves as if no element is present*/
+#header{
+	height: 100px;
+}
+
+.text{
+	float: left;
+	width: 200px;
+	padding: 5px;
+	color: #E36A0C;
+	font-size: 15px;
+	margin-top: 25px;
+	margin-left: 15px;
+	height: 30px;
+	border-radius: 12px;
+	border: 2px solid purple;
+	background-image:  url("C:/Users/SLAYER/Desktop/Maths Website/images/search.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 20px;
+}
+
+.Submit{
+	float: right;
+	padding: 5px;
+	color: white;
+	font-size: 15px;
+	margin-top: 25px;
+	height: 30px;
+	margin-right: 10px;
+	font-weight: bold;
+	background: #A751D6;
+}
+
+.clear{
+	clear: both;
+}
+
+#menu ul{
+	list-style: none;
+}
+
+#menu{
+	height: 70px;
+	background: linear-gradient(#bb95d6, #B481d9);
+	/*padding-left: 15%;*/;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-left: 10px;
+	margin-right: 10px;
+ 	border-radius: 10px;
+	-webkit-box-shadow: 0px 4px #8153a8;
+	-moz-box-shadow: 0px 4px #8153a8;
+	box-shadow: 0px 4px #8153a8;
+}
+
+#menu ul li:last-child{
+	border-right: none;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #40046b;
+}
+
+#menu ul li{
+	display: inline-block;
+	padding: 0px 30px;
+	height: 30px;
+	border-right: 1px solid #5D12E7;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #40046b;
+	line-height: 30px;
+	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	-o-transition: font-size 0.3s ease;
+	-ms-transition: font-size 0.3s ease;
+	transition: font-size 0.3s ease;
+ }
+
+ #intro{
+ 	background: linear-gradient(#D4E9F3, #9dd2ea);
+ 	padding: 30px;
+ 	margin: 10px;
+ 	border-radius: 10px;
+	-webkit-box-shadow: 0px 4px 5px;
+	-moz-box-shadow: 0px 4px 5px;
+	box-shadow: 0px 4px 5px;
+ }
+
+ #intro h3{
+ 	font-size: 3em;
+ 	color: #316901;
+ 	font-weight: normal;
+ }
+
+ #intro p{
+ 	font-size: 2em;
+ 	color: #628F19;
+ 	text-align: justify;
+ }
+
+ .sidebar, .tutor{
+ 	height: 600px;
+ 	width: 48%;
+ 	border: 1px solid #B481d9;
+ 	border-radius: 20px;
+ 	padding: 10px 30px;
+ 	background-color: white;
+ }
+
+
+
+.sidebar h3, .tutor h3{
+	color: #B314DB;
+	font-size: 1.8em;
+}
+
+#leftside{
+	float: left;
+ 	margin-left: 10px;
+}
+
+#rightside{
+ 	float: right;
+ 	margin-right: 10px;
+}
+
+.sidebar ul li a, .tutor ul li a{
+ 	font-size: 1.2em;
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	color: #5D12E7;
+ 	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	-o-transition: font-size 0.3s ease;
+	-ms-transition: font-size 0.3s ease;
+	transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active,.tutor ul li a:hover, .tutor ul li a.active {
+ 	text-decoration: none;
+ 	color: #B314DB;
+ 	font-size: 1.4em;
+}
+
+.sidebar ul li, .tutor ul li{
+ 	padding-bottom: 20px;
+}
+
+#leftside ul li {
+ 	list-style-image: url('C:/Users/SLAYER/Desktop/Maths Website/images/logo.gif');
+}
+
+.tutor ul li{
+ 	list-style-image: url('C:/Users/SLAYER/Desktop/Maths Website/images/logo.gif');
+}
+
+#rightside ul li{
+	list-style-image: url('C:/Users/SLAYER/Desktop/Maths Website/images/logo2.PNG');
+}
+
+#footer{
+	margin: 10px;
+	border: 1px solid #BAF46F;
+	border-radius: 5px;
+	background: linear-gradient(#bb95d6, #B481d9);
+	height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.Submit:hover{
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1060px){
+	
+	#menu{
+		height: 310px;
+		background: linear-gradient(#bb95d6, #B481d9);
+	}
+
+	#menu ul li:last-child{
+		border-bottom: none;
+	}
+
+	#menu ul li{
+		display: block;
+		padding: 0px 30px;
+		height: 50px;
+		/*border-bottom: 1px solid #5D12E7;*/
+		border-right: 0px;
+		text-align: center;
+	}
+
+	.sidebar{
+		display: block;
+		width: 98%;
+		margin: 10px;
+	}
+
+}
+
+@media screen and (max-width: 897px){
+	#brand{
+		width: 100%;
+		display: block;
+	}
+
+	#leftside{
+		margin-right: 10px;
+		float: right;
+	}
+
+	#brand h1{
+		text-align: center;
+	}
+
+	#searchbox{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 507px){
+	#rightside {
+		height: 700px;
+	}
+}
+
+@media screen and (max-width: 421px){
+	#rightside {
+		height: 750px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#rightside {
+		height: 800px;
+	}
+}
+
+@media screen and (max-width: 354px){
+	#rightside {
+		height: 850px;
+	}
+}
+
+@media screen and (max-width: 335px){
+	#rightside {
+		height: 950px;
+	}
+}
